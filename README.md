@@ -1,5 +1,7 @@
 # demo-jpa
 
+This Application creates a table called users and creates a spriing boot demo application and binds with postgresql data base
+
 # Refer this to setup the Swagger 
 https://medium.com/@ByteCodeBlogger/springboot-3-and-springdoc-openapi-3-swagger-impl-no-operation-defined-in-spec-error-f18f70f8ddf6
 
