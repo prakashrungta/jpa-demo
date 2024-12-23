@@ -18,9 +18,14 @@ https://medium.com/@ByteCodeBlogger/springboot-3-and-springdoc-openapi-3-swagger
 https://medium.com/@marvinjungre/get-postgresql-and-pgadmin-4-up-and-running-with-docker-4a8d81048aea
 
 docker pull postgres
+
 docker pull dpage/pgadmin4
+
 docker run --name postgrestutorial -e POSTGRES_PASSWORD=password -p 5432:5432 -d postgres
+
 docker ps
-docker run --name pgadmin-container -p 5050:80 -e PGADMIN_DEFAULT_EMAIL=abc@gmail.com -e PGADMIN_DEFAUL
+
+docker run --name pgadmin-container -p 5050:80 -e PGADMIN_DEFAULT_EMAIL=abc@gmail.com -e PGADMIN_DEFAULT
+
 docker exec -it postgrestutorial 
 
