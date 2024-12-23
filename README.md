@@ -18,10 +18,15 @@ docker run --name postgrestutorial -e POSTGRES_PASSWORD=password -p 5432:5432 -d
 
 docker ps
 
-docker run --name pgadmin-container -p 5050:80 -e PGADMIN_DEFAULT_EMAIL=abc@gmail.com -e PGADMIN_DEFAUL
+docker run --name pgadmin-container -p 5050:80 -e PGADMIN_DEFAULT_EMAIL=abc@gmail.com -e PGADMIN_DEFAULT
 
 docker exec -it postgrestutorial sh
 
 # cat /etc/hosts  [ To get the IP Address ]
 172.17.0.2      9a22aa96d7d3
 
+#Postgres Database 
+username=postgres / password=password  Database mydb 
+
+#pgadmin
+abc@gmail.com/password
