@@ -26,6 +26,6 @@ docker run --name postgrestutorial -e POSTGRES_PASSWORD=password -p 5432:5432 -d
 docker ps
 
 
-docker run --name pgadmin-container -p 5050:80 -e PGADMIN_DEFAULT_EMAIL=abc@gmail.com  -e PGADMIN_DEFAULT_PASSWORD=catsarecool -d dpage/pgadmin4
+docker run --name pgadmin-container -p 5050:80 -e PGADMIN_DEFAULT_EMAIL=abc@gmail.com  -e PGADMIN_DEFAULT_PASSWORD=password -d dpage/pgadmin4
 docker exec -it postgrestutorial 
 
